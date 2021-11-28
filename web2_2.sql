@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2021. Nov 22. 19:38
+-- Létrehozás ideje: 2021. Nov 27. 20:41
 -- Kiszolgáló verziója: 10.4.21-MariaDB
 -- PHP verzió: 7.4.24
 
@@ -208,11 +208,14 @@ INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 ('admin', 'Admin', '', '001', 80),
 ('ajax', 'Ajax', '', '111', 50),
 ('belepes', 'Belépés', '', '100', 60),
+('chart', 'CHART', '', '111', 40),
 ('javascript', 'Javascript', '', '111', 21),
 ('kilepes', 'Kilépés', '', '011', 70),
 ('nyitolap', 'Nyitólap', '', '111', 10),
-('regisztracio', 'Regisztráció', '', '100', 60),
-('rest', 'REST', '', '111', 40),
+('regisztracio', 'Regisztráció', 'belepes', '100', 60),
+('rest', 'REST', 'restful', '111', 40),
+('rest2', 'REST2', 'restful', '111', 40),
+('restful', 'Restful', '', '111', 40),
 ('tcpdf', 'TCPDF', '', '111', 40);
 
 -- --------------------------------------------------------
@@ -475,7 +478,7 @@ ALTER TABLE `naptar`
 -- AUTO_INCREMENT a táblához `szolgaltatas`
 --
 ALTER TABLE `szolgaltatas`
-  MODIFY `id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Megkötések a kiírt táblákhoz
