@@ -1,0 +1,310 @@
+{
+	"info": {
+		"_postman_id": "4d33423f-4810-42e4-95c4-12a25e41811d",
+		"name": "beadandó",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/web2_2/rest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/web2_2/restful_/szerver.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web2_2",
+						"restful_",
+						"szerver.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/web2_2/rest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ti",
+							"value": "valami",
+							"type": "text"
+						},
+						{
+							"key": "je",
+							"value": "asdfwer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web2_2/restful_/szerver.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web2_2",
+						"restful_",
+						"szerver.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/web2_2/restful_/szerver.php",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "ti",
+							"value": "tes",
+							"type": "text"
+						},
+						{
+							"key": "je",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web2_2/restful_/szerver.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web2_2",
+						"restful_",
+						"szerver.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/web2_2/restful_/szerver.php",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/web2_2/restful_/szerver.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"web2_2",
+						"restful_",
+						"szerver.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v1/users?access-token=1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users?access-token=1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "access-token",
+							"value": "1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v1/users?access-token=1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Kis Kiraly",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "proba33@data.hu",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "active",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users?access-token=1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "access-token",
+							"value": "1ebf945a1db07f8e0a15ff80f3ed66bd8f03e3b46a301ce95d3c08af4b5e857a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v1/users/2781?access-token=e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Nagy Kiraly",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/2781?access-token=e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"2781"
+					],
+					"query": [
+						{
+							"key": "access-token",
+							"value": "e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v1/users/2781?access-token=e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/2781?access-token=e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"2781"
+					],
+					"query": [
+						{
+							"key": "access-token",
+							"value": "e474cf141b97ca9ef8d91d5859ebcb6a1a69887daa2ca51d745668a3dd152156"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

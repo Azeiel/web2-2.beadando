@@ -62,6 +62,8 @@
       catch(PDOException $e) {
       }
       echo json_encode($eredmeny);
+	  
+	
       break;
   }
 ?>
